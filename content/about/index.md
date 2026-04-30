@@ -15,6 +15,8 @@ I will also facilitate documentation reviews, gather feedback, and incorporate c
 
 In addition to several other high-priority projects, I am excited to continue efforts to develop and standardize processes and style guides across SignalWire's documentation, and advocate for customers and users.
 
+## Previous work
+
 As a Technical Writer at The Bid Lab in 2022 and 2023, I worked in multiple cross-functional teams to deliver high-quality user documentation, technical proposals, learning content, instruction manuals, and style guides. 
 I interviewed subject matter experts, built process documentation, wrote technical responses, and tracked deliverables, communicating information gaps between globally distributed, internal-external, cross-disciplinary, and cross-functional teams. 
 I also maintained a single source of truth to coordinate overlapping project lifecycles.
