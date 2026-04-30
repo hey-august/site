@@ -26,3 +26,6 @@ theme = 'hugo-theme-console'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[module.imports]]
+  path = "github.com/mrmierzejewski/hugo-theme-console"
