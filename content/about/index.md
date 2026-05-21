@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # About
 
 In December 2023 I joined the Developer Experience team at SignalWire.
