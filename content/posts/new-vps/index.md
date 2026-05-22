@@ -7,7 +7,7 @@ date: 2026-03-04
 
 I got a good deal on a server for Black Friday, but had been putting off actually doing anything with it.
 
-Most of my development work is ai-assisted these days (whose isn't?), but I decided to start this long-delayed task in a decidedly old-fashioned way: by googling "Set up new root server". After all, this is a universal task for anyone building web-connected applications (even personal ones) that don't run on a hyperscaler. So there must be an abundance of learning resources... right? Maybe even a WikiHow article?
+Most of my development work is ai-assisted these days (whose isn't?), but I decided to start this long-delayed task in a decidedly old-fashioned way: by googling "Set up new root server." After all, this is a universal task for anyone building web-connected applications (even personal ones) that don't run on a hyperscaler. So there must be an abundance of learning resources... right? Maybe even a WikiHow article?
 
 Not right. Instead there were a bunch of SEO-optimized how-to results. After skimming a few, I decided to trust this article:
 
