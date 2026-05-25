@@ -7,17 +7,13 @@
       name="viewport"
       content="width=device-width, initial-scale=1" />
   </head>
-    <style>
-      html, body, #app {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+
   <body>
-    <div id="app" width="100vw"></div>
+    <div style="width: 100vw; margin-left: calc(-50vw + 50%); height: 100vh; overflow: hidden;">
+        <div id="app" style="height: 100%; width: 100%;"></div>
+    </div>
     <!-- Load the Script -->
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="/api.yaml"></script>
     <!-- Initialize the API Reference -->
     <script>
       Scalar.createApiReference('#app', {

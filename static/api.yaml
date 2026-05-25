@@ -1,0 +1,49 @@
+openapi: 3.0.3
+info:
+  title: Resume API
+  description: Authenticated endpoint serving a PDF resume.
+  version: 0.1.0
+
+servers:
+  - url: https://api.august.zone
+
+paths:
+  /v1/resume:
+    get:
+      summary: Retrieve resume
+      description: Returns the resume as a PDF file. Requires HTTP Basic Auth.
+      security:
+        - basicAuth: []
+      responses:
+        "200":
+          description: Resume PDF
+          content:
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+        "401":
+          description: Missing or invalid credentials
+          headers:
+            WWW-Authenticate:
+              schema:
+                type: string
+                example: 'Basic realm="restricted"'
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Unauthorized
+        "500":
+          description: File not found on server
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: File not found
+
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
