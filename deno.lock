@@ -1,0 +1,59 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:vis-network@^10.1.0": "10.1.0_@egjs+hammerjs@2.0.17_component-emitter@2.0.0_keycharm@0.4.0_uuid@14.0.0_vis-data@8.0.4__uuid@14.0.0__vis-util@6.0.0___@egjs+hammerjs@2.0.17___component-emitter@2.0.0__@egjs+hammerjs@2.0.17__component-emitter@2.0.0_vis-util@6.0.0__@egjs+hammerjs@2.0.17__component-emitter@2.0.0"
+  },
+  "npm": {
+    "@egjs/hammerjs@2.0.17": {
+      "integrity": "sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==",
+      "dependencies": [
+        "@types/hammerjs"
+      ]
+    },
+    "@types/hammerjs@2.0.46": {
+      "integrity": "sha512-ynRvcq6wvqexJ9brDMS4BnBLzmr0e14d6ZJTEShTBWKymQiHwlAyGu0ZPEFI2Fh1U53F7tN9ufClWM5KvqkKOw=="
+    },
+    "component-emitter@2.0.0": {
+      "integrity": "sha512-4m5s3Me2xxlVKG9PkZpQqHQR7bgpnN7joDMJ4yvVkVXngjoITG76IaZmzmywSeRTeTpc6N6r3H3+KyUurV8OYw=="
+    },
+    "keycharm@0.4.0": {
+      "integrity": "sha512-TyQTtsabOVv3MeOpR92sIKk/br9wxS+zGj4BG7CR8YbK4jM3tyIBaF0zhzeBUMx36/Q/iQLOKKOT+3jOQtemRQ=="
+    },
+    "uuid@14.0.0": {
+      "integrity": "sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==",
+      "bin": true
+    },
+    "vis-data@8.0.4_uuid@14.0.0_vis-util@6.0.0__@egjs+hammerjs@2.0.17__component-emitter@2.0.0_@egjs+hammerjs@2.0.17_component-emitter@2.0.0": {
+      "integrity": "sha512-TsN0sMHqIRpdfg6TNPtfdINpkgxtnQP6JNWCaiSwvou5seXqKiP5eERkaBg+Y56wyJ4FZTeOEs/dEmWEPrpltQ==",
+      "dependencies": [
+        "uuid",
+        "vis-util"
+      ]
+    },
+    "vis-network@10.1.0_@egjs+hammerjs@2.0.17_component-emitter@2.0.0_keycharm@0.4.0_uuid@14.0.0_vis-data@8.0.4__uuid@14.0.0__vis-util@6.0.0___@egjs+hammerjs@2.0.17___component-emitter@2.0.0__@egjs+hammerjs@2.0.17__component-emitter@2.0.0_vis-util@6.0.0__@egjs+hammerjs@2.0.17__component-emitter@2.0.0": {
+      "integrity": "sha512-D7b5p/C6SwWv1BlH9EDdtP0Tje/PJzSBWKef9qy2DyTC14QB7KBcnAZxIyW2m7mFYyfoeR+k5GF747zDcIhaKA==",
+      "dependencies": [
+        "@egjs/hammerjs",
+        "component-emitter",
+        "keycharm",
+        "uuid",
+        "vis-data",
+        "vis-util"
+      ]
+    },
+    "vis-util@6.0.0_@egjs+hammerjs@2.0.17_component-emitter@2.0.0": {
+      "integrity": "sha512-qtpts3HRma0zPe4bO7t9A2uejkRNj8Z2Tb6do6lN85iPNWExFkUiVhdAq5uLGIUqBFduyYeqWJKv/jMkxX0R5g==",
+      "dependencies": [
+        "@egjs/hammerjs",
+        "component-emitter"
+      ]
+    }
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:vis-network@^10.1.0"
+      ]
+    }
+  }
+}
