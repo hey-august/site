@@ -12,14 +12,12 @@
     <div style="width: 100vw; margin-left: calc(-50vw + 50%); height: 100vh; overflow: hidden;">
         <div id="app" style="height: 100%; width: 100%;"></div>
     </div>
-    <!-- Load the Script -->
-    <script src="/api.yaml"></script>
+    <!-- Load the Scalar API Reference -->
+    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
     <!-- Initialize the API Reference -->
     <script>
-      Scalar.createApiReference('#app', {
-        // The URL of the OpenAPI/Swagger document
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
-        // Avoid CORS issues
+      Scalar.createApiReference('', {
+        url: '/api.yaml',
         proxyUrl: 'https://proxy.scalar.com',
       })
     </script>
